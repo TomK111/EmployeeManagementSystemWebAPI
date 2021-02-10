@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeManagementSystem</name>
+    </assembly>
+    <members>
+        <member name="M:EmployeeManagementSystem.Controllers.EmployeeController.GetEmployees">
+            <summary>
+            Retrieves All Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagementSystem.Controllers.EmployeeController.GetEmployee(System.Int32)">
+            <summary>
+            Retrieves Employee By Id
+            </summary>
+            <param name="id">The Id of the employee</param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagementSystem.Controllers.EmployeeController.CreateEmployee(EmployeeManagementSystem.Models.DTO.EmployeeCreateDTO)">
+            <summary>
+            Creates New Employee
+            </summary>
+            <param name="employeeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagementSystem.Controllers.EmployeeController.UpdateEmployee(System.Int32,EmployeeManagementSystem.Models.Employee)">
+            <summary>
+            Updates Existing Employee
+            </summary>
+            <param name="id"></param>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagementSystem.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Deletes Exisiting Employee
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
